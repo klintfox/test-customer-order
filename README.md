@@ -24,7 +24,7 @@ Este archivo contiene pruebas relacionadas con el dominio de las órdenes. Se us
 En TDD, primero escribimos las pruebas antes de implementar la lógica de los objetos o servicios. Aquí se muestra un ejemplo de cómo aplicar TDD para un objeto BankAccount (Cuenta Bancaria).
 
 Código de la prueba
-[BankAccountTest.java:]()
+[BankAccountTest.java:](https://github.com/klintfox/test-customer-order/blob/main/customer-order/src/test/java/com/klinux/model/BankAccountTest.java)
 
 **Descripción de las pruebas:**
 - testDeposit(): Prueba que se pueda hacer un depósito de dinero en la cuenta bancaria.
@@ -35,7 +35,7 @@ Código de la prueba
 En DDD, las pruebas se centran en los conceptos del dominio, por ejemplo, cómo interactúan los objetos del dominio como Order, Customer, OrderService, etc. En este ejemplo, trabajamos con un servicio que gestiona las órdenes en una tienda.
 
 Código de la prueba 
-[OrderServiceTest.java:]()
+[OrderServiceTest.java:](https://github.com/klintfox/test-customer-order/blob/main/customer-order/src/test/java/com/klinux/service/OrderServiceTest.java)
 
 **Descripción de las pruebas:**
 - testCreateOrder(): Verifica que se pueda crear una orden para un cliente y que tenga un estado inicial de "PENDING".
