@@ -1,0 +1,49 @@
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+.idea/
+
+# VSCode
+.vscode/
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+
+# Java class files
+*.class
+
+# JAR files
+*.jar
+*.war
+*.ear
+
+# Compiled archives
+*.tar
+*.zip
+*.gz
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NetBeans
+nbproject/
+
+# Maven Wrapper
+.mvn/
+
+# Java IDE Specific (for IntelliJ, Eclipse, etc.)
+# Can be added to ignore IDE project-specific files.
+.idea/
+*.iml
